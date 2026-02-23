@@ -132,15 +132,15 @@ PDF → Extract Text → Chunk → Embed → Supabase Vector DB
 
 |-------|-----------|
 
-| \*\*Frontend\*\* | Streamlit |
+| **Frontend** | Streamlit |
 
-| \*\*LLM\*\* | Gemini (chat + embeddings) |
+| **LLM** | Gemini (chat + embeddings) |
 
-| \*\*Database\*\* | Supabase PostgreSQL + pgvector |
+| **Database** | Supabase PostgreSQL + pgvector |
 
-| \*\*PDF Parsing\*\* | pdfplumber |
+| **PDF Parsing** | pdfplumber |
 
-| \*\*Core Libraries\*\* | google-genai, python-dotenv, requests |
+| **Core Libraries** | google-genai, python-dotenv, requests |
 
 
 
