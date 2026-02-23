@@ -1,4 +1,4 @@
-\# 📚 AI Handbook Generator (PDF → RAG → Chat → 20k Word Handbook)
+# 📚 AI Handbook Generator (PDF → RAG → Chat → 20k Word Handbook)
 
 
 
@@ -10,7 +10,7 @@ An AI-powered document intelligence platform that lets users upload PDFs, query 
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,61 +18,21 @@ This project combines Retrieval-Augmented Generation (RAG), vector search, and G
 
 
 
-\*\*Key capabilities:\*\*
+**Key capabilities:**
 
 
 
-\- Upload and index PDFs
+- Upload and index PDFs
 
-\- Semantic search across documents
+- Semantic search across documents
 
-\- NotebookLM-style scoped querying
+- NotebookLM-style scoped querying
 
-\- Grounded AI chat responses with citations
+- Grounded AI chat responses with citations
 
-\- Automatic handbook generation (20k+ words)
+- Automatic handbook generation (20k+ words)
 
-\- Multi-document filtering and retrieval
-
-
-
----
-
-
-
-\## Features
-
-
-
-\### Document Intelligence
-
-\- PDF ingestion and text extraction
-
-\- Chunking and embedding using Gemini embeddings
-
-\- Vector storage in Supabase (pgvector)
-
-
-
-\### Conversational AI
-
-\- Context-aware question answering
-
-\- Source citations per response
-
-\- Document-level filtering
-
-
-
-\### Handbook Generation
-
-\- Automatic table of contents creation
-
-\- Section-by-section grounded writing
-
-\- Long-form structured output
-
-\- Markdown export capability
+- Multi-document filtering and retrieval
 
 
 
@@ -80,7 +40,47 @@ This project combines Retrieval-Augmented Generation (RAG), vector search, and G
 
 
 
-\## Architecture
+## Features
+
+
+
+### Document Intelligence
+
+- PDF ingestion and text extraction
+
+- Chunking and embedding using Gemini embeddings
+
+- Vector storage in Supabase (pgvector)
+
+
+
+### Conversational AI
+
+- Context-aware question answering
+
+- Source citations per response
+
+- Document-level filtering
+
+
+
+### Handbook Generation
+
+- Automatic table of contents creation
+
+- Section-by-section grounded writing
+
+- Long-form structured output
+
+- Markdown export capability
+
+
+
+---
+
+
+
+## Architecture
 
 
 
@@ -88,17 +88,17 @@ The system follows a Retrieval-Augmented Generation pipeline:
 
 
 
-1\. PDF ingestion
+1. PDF ingestion
 
-2\. Text chunking
+2. Text chunking
 
-3\. Embedding generation
+3. Embedding generation
 
-4\. Vector storage in Supabase
+4. Vector storage in Supabase
 
-5\. Semantic retrieval
+5. Semantic retrieval
 
-6\. LLM grounding and response generation
+6. LLM grounding and response generation
 
 
 
@@ -126,7 +126,7 @@ PDF → Extract Text → Chunk → Embed → Supabase Vector DB
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
@@ -150,11 +150,11 @@ PDF → Extract Text → Chunk → Embed → Supabase Vector DB
 
 
 
-\## Installation
+## Installation
 
 
 
-\*\*Clone the repository:\*\*
+**Clone the repository:**
 
 
 
@@ -168,7 +168,7 @@ cd ai-handbook-generator
 
 
 
-\*\*Create a virtual environment:\*\*
+**Create a virtual environment:**
 
 
 
@@ -184,7 +184,7 @@ source .venv/bin/activate       # macOS/Linux
 
 
 
-\*\*Install dependencies:\*\*
+**Install dependencies:**
 
 
 
@@ -200,7 +200,7 @@ pip install -r requirements.txt
 
 
 
-\## Environment Variables
+## Environment Variables
 
 
 
@@ -230,7 +230,7 @@ GEMINI\_EMBED\_DIM=768
 
 
 
-\## Run the App
+## Run the App
 
 
 
@@ -246,19 +246,19 @@ streamlit run ui\_streamlit.py
 
 
 
-\## Usage Workflow
+## Usage Workflow
 
 
 
-1\. Upload one or more PDFs in the sidebar
+1. Upload one or more PDFs in the sidebar
 
-2\. Click \*\*"Process \& Index"\*\* and wait for indexing to complete
+2. Click **"Process & Index"** and wait for indexing to complete
 
-3\. Ask questions about the documents in the chat
+3. Ask questions about the documents in the chat
 
-4\. Optionally select a document scope from the \*\*Search Scope\*\* dropdown
+4. Optionally select a document scope from the **Search Scope** dropdown
 
-5\. Generate a full handbook by typing:
+5. Generate a full handbook by typing:
 
 
 
@@ -274,7 +274,7 @@ Generate a handbook on <topic>
 
 
 
-\## License
+## License
 
 
 
