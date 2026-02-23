@@ -234,7 +234,7 @@ GEMINI\_EMBED\_DIM=768
 
 ```bash
 
-streamlit run ui\_streamlit.py
+streamlit run ui_streamlit.py
 
 ```
 
