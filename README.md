@@ -104,17 +104,17 @@ The system follows a Retrieval-Augmented Generation pipeline:
 
 PDF → Extract Text → Chunk → Embed → Supabase Vector DB
 
-&nbsp;                                            ↓
+                                                  ↓
 
-&nbsp;                                     Retrieve Context
+                                           Retrieve Context
 
-&nbsp;                                            ↓
+                                                  ↓
 
-&nbsp;                                       Gemini LLM
+                                             Gemini LLM
 
-&nbsp;                                            ↓
+                                                  ↓
 
-&nbsp;                             Chat Response or Handbook Output
+                                   Chat Response or Handbook Output
 
 ```
 
