@@ -25,9 +25,7 @@ This project combines Retrieval-Augmented Generation (RAG), vector search, and G
 - Upload and index PDFs
 
 - Semantic search across documents
-
-- NotebookLM-style scoped querying
-
+  
 - Grounded AI chat responses with citations
 
 - Automatic handbook generation (20k+ words)
