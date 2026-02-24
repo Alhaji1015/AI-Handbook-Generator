@@ -147,17 +147,11 @@ PDF → Extract Text → Chunk → Embed → Supabase Vector DB
 
 
 | Layer | Technology |
-
-|-------|-----------|
-
+|-------|------------|
 | **Frontend** | Streamlit |
-
 | **LLM** | Gemini (chat + embeddings) |
-
 | **Database** | Supabase PostgreSQL + pgvector |
-
 | **PDF Parsing** | pdfplumber |
-
 | **Core Libraries** | google-genai, python-dotenv, requests |
 
 
