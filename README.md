@@ -25,11 +25,21 @@ This project combines Retrieval-Augmented Generation (RAG), vector search, and G
 - Upload and index PDFs
 
 - Semantic search across documents
+<<<<<<< HEAD
   
 - Grounded AI chat responses with citations
 
 - Automatic handbook generation (20k+ words)
 
+=======
+
+- NotebookLM-style scoped querying
+
+- Grounded AI chat responses with citations
+
+- Automatic handbook generation (20k+ words)
+
+>>>>>>> 1e534d9 (Add demo videos to README)
 - Multi-document filtering and retrieval
 
 
@@ -104,6 +114,7 @@ The system follows a Retrieval-Augmented Generation pipeline:
 
 PDF → Extract Text → Chunk → Embed → Supabase Vector DB
 
+<<<<<<< HEAD
                                                   ↓
 
                                            Retrieve Context
@@ -115,6 +126,19 @@ PDF → Extract Text → Chunk → Embed → Supabase Vector DB
                                                   ↓
 
                                    Chat Response or Handbook Output
+=======
+                                            ↓
+
+                                     Retrieve Context
+
+                                            ↓
+
+                                       Gemini LLM
+
+                                            ↓
+
+                             Chat Response or Handbook Output
+>>>>>>> 1e534d9 (Add demo videos to README)
 
 ```
 
@@ -250,7 +274,11 @@ streamlit run ui_streamlit.py
 
 1. Upload one or more PDFs in the sidebar
 
+<<<<<<< HEAD
 2. Click **"Process & Index"** and wait for indexing to complete
+=======
+2. Click **"Process \& Index"** and wait for indexing to complete
+>>>>>>> 1e534d9 (Add demo videos to README)
 
 3. Ask questions about the documents in the chat
 
@@ -271,7 +299,19 @@ Generate a handbook on <topic>
 ---
 
 
+## Demo
 
+<<<<<<< HEAD
+=======
+| # | What it shows | Link |
+|---|--------------|------|
+| 1 | PDF Upload & Indexing | [Watch](https://youtu.be/UH--JXrO7nE) |
+| 2 | Chat & Prompting | [Watch](https://youtu.be/e3vftrfk6T8) |
+| 3 | Handbook Generation | [Watch](https://youtu.be/CILWpwXm49Y) |
+
+---
+
+>>>>>>> 1e534d9 (Add demo videos to README)
 ## License
 
 
