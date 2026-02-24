@@ -25,7 +25,7 @@ This project combines Retrieval-Augmented Generation (RAG), vector search, and G
 - Upload and index PDFs
 
 - Semantic search across documents
-  
+
 - Grounded AI chat responses with citations
 
 - Automatic handbook generation (20k+ words)
@@ -292,9 +292,9 @@ Generate a handbook on <topic>
 
 | # | What it shows | Link |
 |---|--------------|------|
-| 1 | PDF Upload & Indexing | [Watch](https://youtu.be/UH--JXrO7nE) |
-| 2 | Chat & Prompting | [Watch](https://youtu.be/e3vftrfk6T8) |
-| 3 | Handbook Generation | [Watch](https://youtu.be/CILWpwXm49Y) |
+| 1 | PDF Upload & Indexing | [Watch](https://youtu.be/bKlEzWUqv9w) |
+| 2 | Chat & Prompting | [Watch](https://youtu.be/CILWpwXm49Y) |
+| 3 | Handbook Generation | [Watch](https://youtu.be/e3vftrfk6T8) |
 
 ---
 
